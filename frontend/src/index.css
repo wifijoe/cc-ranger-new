@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #FFFBFE;
+  --color-primary: #1A1B3E;
+  --color-primaryHover: #424469;
+  --color-primarySelected: #4c4fa7;
+  --color-inProgress: #FF6384;
+  --color-inProgressHover: #fd91a8;
+  --color-onShelf: #FFCE56;
+  --color-onShelfHover: #faedcd;
+  --color-completed: #36A2EB;
+  --color-completedHover: #74bdee;
+}
+
+svg > g > g.google-visualization-tooltip { pointer-events: none }
